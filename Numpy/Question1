@@ -1,0 +1,7 @@
+# 1. Reversing an array using numpy
+import numpy as np
+x = eval(input("input enter list "))
+b =x[::-1]
+a = np.array(b,dtype='f')
+print(type(a))
+print(a)
