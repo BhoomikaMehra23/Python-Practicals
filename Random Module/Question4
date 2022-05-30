@@ -1,0 +1,6 @@
+#4.square
+>>> import math
+>>> math.sqrt(100)
+10.0
+>>> math.sqrt(3)
+1.7320508075688772
