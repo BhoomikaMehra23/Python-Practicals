@@ -1,14 +1,7 @@
-#2. Function to count no. vowels and consonants
-def count(x):
-    c=0 
-    v=0
-    for ch in x.lower():
-        if ch in 'aeiou':
-            v+=1
-        elif ch.isalpha():
-            c+=1
-    return v,c
-st = input("enter string ")
-v,c = count(st)
-print("no of vowels",v)
-print("no of consonants",c)
+
+#2. creating 3*3 array
+import numpy as np
+x = eval(input("input enter list "))
+a = np.array(x)
+a.shape=3,3
+print(a)
